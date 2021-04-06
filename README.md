@@ -3,7 +3,7 @@
 Determine the effect of ephaptic coupling on discordant alternans.
 
 - Version history (in reverse chronological order):
-    -Added a four-node version of the model to the code (in the form of a new folder, four_node_cell_fiber_model), since intracellular resistance comparable to the intercell gap junction resistance should be important and non-negligible.   The code can be run in either of two modes: in the main file, four_node_cell_ephaptic_fiber.m, 
+    - Added a four-node version of the model to the code (in the form of a new folder, four_node_cell_fiber_model), since intracellular resistance comparable to the intercell gap junction resistance should be important and non-negligible.   The code can be run in either of two modes: in the main file, four_node_cell_ephaptic_fiber.m:
         * When velocity_measurement_mode = true and plot_extended_diagnostics = false, the code executes several runs to produce a velocity plot for different values of the gap-junction coupling and cleft width.  
         * When the reverse, the code generates a membrane potential colorplot, showing the discordant alternans pattern in time and space, along with other diagnostics associated with discorant alternans.
     - Added a spatially detailed, cylindrically-symmetric model of the effect of cleft-cell coupling during action potential propagation (in a new folder, cyl_model_of_cell_cleft_display_currents):
